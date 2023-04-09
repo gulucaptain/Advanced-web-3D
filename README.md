@@ -24,7 +24,7 @@ You can achieve this game with NodeJS, Socket.io, and Three.js. The following st
 * Build the soft connection:
   ```
    vi /etc/profile, then add the following contents:
-   export NODE_HOME=~/usr/local/node
+   export NODE_HOME=/usr/local/node
    export PATH=$NODE_HOME/bin:$PATH
    ```
 * Compile /etc/profile: `source /etc/profile`.
