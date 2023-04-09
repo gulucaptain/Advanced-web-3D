@@ -17,8 +17,10 @@ You can achieve this game with NodeJS, Socket.io, and Three.js. The following st
 3. Installing NodeJS in cloud server.
 * Download node package at https://nodejs.org/en/download/. Choose the Linux binaries (x64) version that the suffix of the file ends with '.xz'.
 * Upload the file to the /usr/local/ path.
-* Unzip files with: tar -xvf node-vxx.xx.xx-linux-x64.tar.xz
-* Rename the unzipped file: mv node-vxx.xx.xx-linux-x64 node
+* Unzip files with: 
+`tar -xvf node-vxx.xx.xx-linux-x64.tar.xz`
+* Rename the unzipped file: 
+`mv node-vxx.xx.xx-linux-x64 node`
 * Build the soft connection:
    * vi /etc/profile, then add the following contents:
    * export NODE_HOME=~/usr/local/node
