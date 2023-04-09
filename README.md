@@ -21,7 +21,7 @@ You can achieve this game with NodeJS, Socket.io, and Three.js. The following st
 * Rename the unzipped file: mv node-vxx.xx.xx-linux-x64 node
 * Build the soft connection:
    * vi /etc/profile, then add the following contents:
-   * export NODE_HOME=~/usr/local/node
-   * export PATH=$NODE_HOME/bin:$PATH
+      * export NODE_HOME=~/usr/local/node
+      * export PATH=$NODE_HOME/bin:$PATH
 * Check the node and npm: node -v; npm -v.
 4. 
