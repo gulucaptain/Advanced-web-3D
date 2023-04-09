@@ -27,6 +27,7 @@ You can achieve this game with NodeJS, Socket.io, and Three.js. The following st
    export NODE_HOME=~/usr/local/node
    export PATH=$NODE_HOME/bin:$PATH
    ```
+* Compile /etc/profile: `source /etc/profile`.
 * Check the node and npm version: `node -v`; `npm -v`.
 4. Install the dependency. To run the project, the related dependencies should be installed, including express and socket.io.
 * `cd ~/3D-multi-player-main/nodeapps/blockland`
